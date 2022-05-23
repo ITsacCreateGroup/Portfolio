@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    background-color: #f8f9fa!important;
+}
+
+h3 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 90px 0 60px 0;
+}
+
+h5 {
+    font-size: 23px;
+    font-weight: 300;
+}
+
+
+/* header */
+
+header {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+header .container {
+    /* background-color: rgb(157, 196, 239); */
+    background-image: url(img/header.jpg);
+    height: 350px;
+}
+
+.slogan p {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+/* intro */
+.intro .col-lg-3 {
+    padding: 30px;
+}
+
+.intro {
+    font-size: 22px;
+}
+
+.intro .content {
+    padding-top: 25px;
+}
+
+.intro img {
+    border-radius: 25px;
+}
+
+
+/* Service */
+.service {
+    background-color: #fff;
+    padding-bottom: 90px;
+}
+
+.service .card-title h4 {
+    text-align: center;
+    padding: 50px 10px 0 10px;
+    font-weight: 600;
+}
+
+.service .card-icon {
+    padding: 30px;
+}
+
+.service .col-lg-4 {
+    margin: 20px;
+    /* background-color: rgb(196, 226, 255); */
+    background-color: rgb(207, 226, 245);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-icon {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.card-content {
+    margin-top: auto;
+    flex: 1;
+}
+
+
+
+/* About */
+.about .exp {
+    padding: 30px 5px;
+    
+}
+
+
+/* about2 */
+.about2 {
+    padding: 20px 0 100px 0;
+}
